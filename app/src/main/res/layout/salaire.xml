@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1E6E6">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="409dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="2dp"
+        android:text="Fiche de jour"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="100px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/salaire"
+        android:layout_width="411dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="29dp"
+        android:background="#8B981919"
+        android:ems="10"
+        android:hint="salaire"
+        android:inputType="textPersonName"
+
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <EditText
+        android:id="@+id/Nourriture"
+        android:layout_width="411dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginBottom="452dp"
+        android:background="#41981919"
+        android:ems="10"
+
+        android:hint="Nourriture"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/loisirs"
+        android:layout_width="411dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="288dp"
+        android:background="#41981919"
+
+        android:ems="10"
+        android:hint="Loisirs"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Autres"
+        android:layout_width="411dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="466dp"
+        android:layout_marginBottom="209dp"
+        android:background="#41981919"
+
+        android:ems="10"
+        android:hint="Autres"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Valider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="133dp"
+        android:background="#353030"
+        android:text="Valider"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/voir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="133dp"
+        android:background="#353030"
+        android:text="voir"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Médicament"
+        android:layout_width="411dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginBottom="371dp"
+        android:background="#41981919"
+        android:ems="10"
+
+        android:hint="Médicament"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/interpritation"
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+
+        android:textColor="#FF5722"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+</android.support.constraint.ConstraintLayout>
